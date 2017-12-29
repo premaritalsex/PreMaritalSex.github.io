@@ -1,3 +1,22 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #2E3955;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -365,12 +384,47 @@ h3.skill-title{
     background-color: #333;
 }
 
+form.contactform{
+    padding: 0 45px 15px;
+}
 
+.txtfield{
+    width: 48%;
+    height: 35px;
+    padding: 0 5px;
+    font-size: 16px;
+    font-style: italic;
+}
 
+.txtfield,.message{
+    border: 1px solid #333333;
+    font-family: 'Montserrat', sans-serif;
+}
 
+#submit{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #9aabcf;
+    width: 150px;
+    height: 35px;
+    border: 1px solid;
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 15px;
+    font-style: italic;
+}
 
+.txtfield.email{
+    float: right;
+}
 
-
+.message{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 15px;
+}
 
 
 

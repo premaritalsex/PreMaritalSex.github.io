@@ -213,8 +213,14 @@ h3.skill-title{
     display: inline-block;
 }
 
+.about-desc2{
+    width: 80%;
+    display: inline;
+    align-content: center;
+}
+
 .about-desc p{
-    padding-bottom: 15px;
+    padding-bottom: 0;
 }
 
 .about-img{
